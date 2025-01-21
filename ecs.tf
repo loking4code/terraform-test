@@ -14,7 +14,7 @@ resource "cmccloudv2_server" "duy_test" {
   # ecs_group_id = "bfdcd02a-1ffe-4e24-9cc5-09a0a6689923" lựa chọn tạo VM trong 1 ECS group nếu có
   # key_name = "" #chọn keypair để đăng nhập nếu có 
   # user_data = ""
-  password = "Duynum1Xb@.123@#" # lựa chọn password, tối thiểu 8 ký tự , có chữ hoa và ký tự đặc biệt
+  password = "xxxxxxxxxxx" # lựa chọn password, tối thiểu 8 ký tự , có chữ hoa và ký tự đặc biệt
   tags     = ["tag2", "tag1"]
   vm_state = "active"
 }
